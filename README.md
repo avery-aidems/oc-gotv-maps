@@ -2,10 +2,10 @@
 
 Static copies of the pages built in the private `orange-county-gotv` project (`map/dist/`).
 
-- `index.html`: precinct turnout map with district layers
-- `overlap.html`: district overlap viewer
+- `index.html`: **the combined map** (current, published 11/02/2026). Precinct turnout map with district layers and two-district overlaps: overlay a second district type, select an overlap (e.g. HD 42 & CC 3), and everything outside it is grayed out, with its turnout, "not yet voted" and precinct list. TQV data as of Mon 11/02 1:50 PM EST.
+- `overlap.html`: district overlap viewer, **obsolete as of 11/02/2026** (folded into the combined map). Kept only so old links work; it carries an "Obsolete" banner and is no longer updated.
 
-Do not edit here. Rebuild in `orange-county-gotv` (`python3 scripts/build_map.py`), then copy `map/dist/index.html` and `map/dist/overlap.html` here (adding the noindex tag) and push.
+Do not edit here. Rebuild in `orange-county-gotv` (`python3 scripts/build_map.py`), then copy `map/dist/index.html` here (adding the noindex tag) and push. `overlap.html` no longer needs copying.
 
 ## Senate District 10 (`sd10/`), version 1
 
