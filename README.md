@@ -30,7 +30,7 @@ The pages here are build outputs. Nothing in this repo is edited by hand except 
 | `sd-10-gotv` | SD 10 map: same layout, plus results, party and D vs R scripts. `UPDATE.md` documents the 2026 refresh procedure. |
 | `state-election-data` | TQV turnout pulls (`scripts/update.py`), with dated snapshots |
 
-**Commit the source projects first.** As of 11/06 the Election Day work in both projects (the `eday.py`, results and party scripts, `docs/eday/`, template and build changes) is still uncommitted. Until it is committed, these built pages are the only copy of that version.
+Both source projects are committed at their final 11/03 builds and tagged `2026-general-archive` (11/06). Their READMEs record which build each published copy ended on. Rebuilding there now won't reproduce these pages, because the TQV data has been refreshed since. Their committed `data/derived/` and `map/dist/` files are the record.
 
 What is tied to 2026 and needs changing for a new cycle:
 
